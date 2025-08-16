@@ -68,6 +68,6 @@ You can generate it by running the Jupyter Notebook or download it from [Google 
 
 Add collaborative filtering
 
-Add trailers links from youtube to be added in the recommended posters
+Add trailers links from youtube to be added in the recommended posters ✔️✔️✔️✔️
 
-Enhance UI/UX
+Enhance UI/UX ✔️
