@@ -2,9 +2,14 @@ import pickle
 import streamlit as st
 import requests
 
-# ----------------- CONFIG -----------------
-TMDB_API_KEY = "06b71def1b642d6dd2e01db6576eda1a"   # your TMDB key
-YOUTUBE_API_KEY = "AIzaSyAokdZIbGxGPDytYo8fnb77DwVcAC2yP_c"  # your YouTube key
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+TMDB_API_KEY = os.getenv("TMDB_API_KEY")
+YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
+
 
 # ----------------- FUNCTIONS -----------------
 def fetch_poster(movie_id):
